@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>WEBCHAT FURIA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Botão para abrir o chat -->
+  <div id="toggle-chat" onclick="toggleChat()">💬</div>
+
+  <!-- Janela do chat -->
+  <div id="chat-container">
+    <div class="chat-header">
+      <img src="/static/img/furia.png" alt="Logo FURIA" class="logo-furia">
+      <span>BOT-FURIA</span>
+      <span id="close-chat" class="close-chat">✖</span>
+    </div>
+
+    <div id="chat"></div>
+
+    <div id="comandos-rapidos"></div>
+
+    <div class="input-area">
+      <!-- Campo de entrada de mensagem -->
+      <input type="text" id="mensagem" placeholder="Pergunte algo..." />
+      <!-- Botão de envio (ícone) -->
+      <button id="send-button">
+        <i class="fas fa-paper-plane"></i> <!-- Ícone de avião de papel -->
+      </button>
+    </div>
+  </div>
+
+  <!-- Script carregado após o DOM -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
