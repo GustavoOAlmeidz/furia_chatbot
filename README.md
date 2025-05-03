@@ -13,7 +13,7 @@ Chatbot interativo desenvolvido para fãs do time de CS:GO da FURIA, com visual 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/furia_chatbot.git
+   git clone https://github.com/GustavoOAlmeidz/furia_chatbot.git
    cd furia_chatbot
    ```
 
@@ -49,7 +49,16 @@ furia_chatbot/
 ├── requirements.txt    # Dependências do projeto
 ├── Procfile            # Configuração para deploy no Heroku
 ├── .gitignore
-└── README.md
+├── README.md
+├──static
+|  ├─img
+|  | ├─ user.png
+|  | └─ furia.png
+|  ├─ script.js
+|  └─ styke.css
+├── templates
+|  └─ index.html
+├──venv
 ```
 
 ## 💡 Próximos passos
@@ -70,4 +79,4 @@ Contribuições são bem-vindas! Para começar:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está aberto use como quiser
