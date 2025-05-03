@@ -58,7 +58,7 @@ furia_chatbot/
 |  └─ styke.css
 ├── templates
 |  └─ index.html
-├──venv
+└──venv
 ```
 
 ## 💡 Próximos passos
@@ -79,4 +79,4 @@ Contribuições são bem-vindas! Para começar:
 
 ## 📄 Licença
 
-Este projeto está aberto use como quiser
+Este projeto está aberto use-o como quiser
