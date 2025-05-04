@@ -4,23 +4,22 @@ Chatbot interativo desenvolvido para fãs do time de CS2 da FURIA, com visual pe
 
 ---
 
-## 🎯 Objetivo
-
-O objetivo principal do projeto é **engajar a comunidade de fãs da FURIA** por meio de uma experiência conversacional amigável e visualmente atrativa. A solução faz parte de um desafio prático de design e desenvolvimento de protótipos funcionais com foco em interatividade, visual e usabilidade.
-
----
-
 ## 📌 Sumário
 
 - [🎯 Objetivo](#-objetivo)
-- [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🗂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [⚙️ Instalação e Execução](#️-instalação-e-execução)
-- [💬 Funcionalidades](#-funcionalidades)
-- [🎨 Design e Estilo](#-design-e-estilo)
-- [📈 Melhorias Futuras](#-melhorias-futuras)
+- [⚙️ Funcionalidades](#-funcionalidades)
+- [🖥️ Instalação e Execução](#️-instalação-e-execução)
+- [🛠 Estrutura do Projeto](#-estrutura-do-projeto)
+- [✅ Requisitos](#-requisitos)
+- [💡 Próximos passos](#-proximos-passos)
 - [🤝 Contribuindo](#-contribuindo)
 - [📄 Licença](#-licença)
+
+---
+
+## 🎯 Objetivo
+
+O objetivo principal do projeto é **engajar a comunidade de fãs da FURIA** por meio de uma experiência conversacional amigável e visualmente atrativa. A solução faz parte de um desafio prático de design e desenvolvimento de protótipos funcionais com foco em interatividade, visual e usabilidade.
 
 ---
 
@@ -34,7 +33,7 @@ O objetivo principal do projeto é **engajar a comunidade de fãs da FURIA** por
 
 ---
 
-## 🖥️ Como rodar localmente
+## 🖥️ Instalação e Execução
 
 1. Clone o repositório:
    ```bash
@@ -63,7 +62,7 @@ Acesse no navegador: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🧾 Requisitos
+## ✅ Requisitos
 
 - Python 3.8 ou superior
 - Flask
