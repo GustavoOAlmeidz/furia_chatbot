@@ -7,7 +7,7 @@ Chatbot interativo desenvolvido para fãs do time de CS2 da FURIA, com visual pe
 ## 📌 Sumário
 
 - [🎯 Objetivo](#-objetivo)
-- [⚙️ Funcionalidades](#-funcionalidades)
+- [⚙️ Funcionalidades](#️-funcionalidades)
 - [🖥️ Instalação e Execução](#️-instalação-e-execução)
 - [🛠 Estrutura do Projeto](#-estrutura-do-projeto)
 - [✅ Requisitos](#-requisitos)
