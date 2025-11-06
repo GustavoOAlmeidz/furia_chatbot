@@ -28,3 +28,8 @@ def mesclar_reorganizar_limpar(caminho_arq1, caminho_arq2, caminho_saida, coluna
 
 # Exemplo de uso:
 # mesclar_reorganizar_limpar("arq1.csv", "arq2.csv", "saida.csv", "CD_LCTO_CONTABIL")
+# 
+# Para Windows, use raw strings (r"") ou barras duplas (\\):
+# mesclar_reorganizar_limpar(r"C:\Users\Documents\arq1.csv", r"C:\Users\Documents\arq2.csv", r"C:\Users\Documents\saida.csv", "CD_LCTO_CONTABIL")
+# ou
+# mesclar_reorganizar_limpar("C:\\Users\\Documents\\arq1.csv", "C:\\Users\\Documents\\arq2.csv", "C:\\Users\\Documents\\saida.csv", "CD_LCTO_CONTABIL")

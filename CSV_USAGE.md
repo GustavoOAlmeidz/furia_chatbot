@@ -19,11 +19,27 @@ Merges two CSV files, reorganizes the data, and performs cleanup operations.
 ```python
 from csv_utils import mesclar_reorganizar_limpar
 
-# Merge and clean two CSV files
+# Merge and clean two CSV files (relative paths)
 mesclar_reorganizar_limpar(
     "arq1.csv", 
     "arq2.csv", 
     "saida.csv", 
+    "CD_LCTO_CONTABIL"
+)
+
+# Windows paths - use raw strings (r"") or double backslashes
+mesclar_reorganizar_limpar(
+    r"C:\Users\Documents\arq1.csv", 
+    r"C:\Users\Documents\arq2.csv", 
+    r"C:\Users\Documents\saida.csv", 
+    "CD_LCTO_CONTABIL"
+)
+
+# Or with double backslashes
+mesclar_reorganizar_limpar(
+    "C:\\Users\\Documents\\arq1.csv", 
+    "C:\\Users\\Documents\\arq2.csv", 
+    "C:\\Users\\Documents\\saida.csv", 
     "CD_LCTO_CONTABIL"
 )
 ```
